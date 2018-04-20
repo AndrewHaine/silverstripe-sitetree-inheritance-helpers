@@ -1,0 +1,22 @@
+{
+    "name": "andrewhaine/silverstripe-sitetree-inheritance-helpers",
+    "description": "A SilverStripe module that adds some helper methods to your site tree to aid with inherited values and relations",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe", "sitetree", "inheritance", "methods"],
+    "homepage": "https://github.com/AndrewHaine/silverstripe-sitetree-inheritance-helpers",
+    "authors": [
+        {
+            "name": "Andrew Haine",
+            "email": "andrew@andrewhaine.co.uk"
+        }
+    ],
+    "require": {
+       "silverstripe/cms": "^4.1",
+       "silverstripe/framework": "^4.1",
+       "silverstripe/vendor-plugin": "^1"
+   },
+   "license": "BSD-3-Clause",
+   "support": {
+        "issues": "https://github.com/AndrewHaine/silverstripe-sitetree-inheritance-helpers/issues"
+    }
+}

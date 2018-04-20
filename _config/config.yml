@@ -1,0 +1,6 @@
+---
+Name: sitetree-inheritance-helpers
+---
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - AndrewHaine\SiteTreeInheritanceHelpers\Extensions\SiteTreeExtension
