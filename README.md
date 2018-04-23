@@ -39,7 +39,7 @@ public function getMyInheritedList()
 
 **CustomPage.ss**
 ```html
-<% loop $getInheritedRelationValue('SomeList') %>
+<% loop $getInheritedRelationValue('SomeList', true) %>
     \\\
 <% end_loop %>
 ```

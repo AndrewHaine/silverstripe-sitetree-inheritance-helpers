@@ -118,7 +118,7 @@ class SiteTreeExtension extends Extension
      */
     private static function check_list_method($page, $relationName)
     {
-        if( $page->hasMethod($relationName) is_callable([$page, $relationName]) ) {
+        if( $page->hasMethod($relationName) && is_callable([$page, $relationName]) ) {
             $list = $page->{$relationName}();
             if( $list && $list->count() ) {
                 return $list;
